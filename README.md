@@ -19,7 +19,7 @@ It returns the following:
 
 ```json
 {
-  "access_token": {jwt}
+  "id_token": {jwt}
 }
 ```
 
