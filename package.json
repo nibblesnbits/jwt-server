@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/auth0/nodejs-jwt-authentication-sample.git"
+    "url": "https://github.com/nibblesnbits/jwt-server.git"
   },
   "keywords": [],
   "author": "Stephen",
