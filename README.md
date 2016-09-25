@@ -23,7 +23,11 @@ It returns the following:
 }
 ```
 
-The JWT is signed with the secret located at the `config.json` file. That JWT will contain the `username` and the `extra` information that you sent at signup time.
+The JWT is signed with the secret located at the `config.json` file. That JWT will contain the `username` and the `extra` information that you sent at signup time.#### POST `/sessions/create`
+
+#### GET `/api/protected`
+
+You can do a GET to `/api/protected` to ensure your token is valid.  It returns an empty `200` response if the token is still valid.
 
 ## License
 
