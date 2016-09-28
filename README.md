@@ -23,7 +23,7 @@ It returns the following:
 }
 ```
 
-The JWT is signed with the secret located at the `config.json` file. That JWT will contain the `username` and the `extra` information that you sent at signup time.#### POST `/sessions/create`
+The JWT is signed with the secret located at the `config.json` file. That JWT will contain the `username` and the roles hard-coded in `user-routes.js`
 
 #### GET `/api/protected`
 
