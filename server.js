@@ -10,10 +10,6 @@ const app = express();
 
 dotenv.load();
 
-// Parsers
-// old version of line
-// app.use(bodyParser.urlencoded());
-// new version of line
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors());
@@ -28,7 +24,7 @@ app.use(function(err, req, res, next) {
 
 if (process.env.NODE_ENV === 'development') {
   app.use(logger('dev'));
-  app.use(errorhandler())
+  app.use(errorhandler());
 }
 
 app.use(require('./protected-routes'));
